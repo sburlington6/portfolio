@@ -38,3 +38,8 @@ body > .container {
 code {
   font-size: 80%;
 }
+
+/* isotope styles
+-------------------------------------------------- */
+.grid-item { width: 25%; }
+.grid-item--width2 { width: 50%; }
