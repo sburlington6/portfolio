@@ -1,14 +1,28 @@
 <?php
     require_once('includes/header.php');
 ?>
-    <!-- Begin page content -->
-    <div class="container">
-      <div class="page-header">
-        <h1>Sticky footer with fixed navbar</h1>
-      </div>
-      <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body > .container</code>.</p>
-      <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
+
+<div class="container">
+    <div class="page-header">
+        <h1>Portfolio</h1>
     </div>
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="..." alt="...">
+                <div class="caption">
+                    <h3>Thumbnail label</h3>
+                    <p>Thumbnail caption</p>
+                    <p>
+                        <a href="#" class="btn btn-primary" role="button">About</a> 
+                        <a href="#" class="btn btn-default" role="button">View Project</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <?php
     require_once('includes/footer.php');
 ?>

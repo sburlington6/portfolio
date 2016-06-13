@@ -1,7 +1,7 @@
 
     <footer class="footer">
       <div class="container">
-        <p class="text-muted">Place sticky footer content here.</p>
+        <p class="text-muted">&copy; 2016 Richard Bird</p>
       </div>
     </footer>
 
