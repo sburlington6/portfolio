@@ -33,6 +33,17 @@
                 </p>
             </div>
         </div>
+        <div class="grid-item thumbnail">
+            <img src="..." alt="...">
+            <div class="caption">
+                <h3>Thumbnail label</h3>
+                <p>Thumbnail caption</p>
+                <p>
+                    <a href="#" class="btn btn-primary" role="button">About</a> 
+                    <a href="#" class="btn btn-default" role="button">View Project</a>
+                </p>
+            </div>
+        </div>
     </div>
 </div>
 
