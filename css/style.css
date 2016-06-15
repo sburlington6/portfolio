@@ -41,5 +41,9 @@ code {
 
 /* isotope styles
 -------------------------------------------------- */
-.grid-item { width: 25%; }
-.grid-item--width2 { width: 50%; }
+.grid-item { 
+    width: 25%; 
+}
+.grid-item--width2 { 
+    width: 50%; 
+}
