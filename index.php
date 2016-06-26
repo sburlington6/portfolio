@@ -5,7 +5,7 @@
     $types= array("web","html","wordpress","sites","apps");
 ?>
 
-<div class="container">
+<div class="container home">
     <div class="page-header">
         <h1>Portfolio</h1>
     </div>
@@ -26,17 +26,15 @@
             ?>
             
             <!-- <div class="pitem hvr-bounce-to-top grid-item thumbnail <?php echo $class ?>"> -->
-            <div class="pitem grid-item thumbnail <?php echo $class ?>">
+            <div class="pitem grid-item thumbnail <?php echo $class ?> view  view-first">
                 
-                <div class="caption">
-                    <h3>Thumbnail label</h3>
+                <img width="250" height="250" src="img/test.png" alt="...">
+                <div class="mask">
+                    <h2>Thumbnail label</h2>
                     <p>Thumbnail caption</p>
-                    <p>
-                        <a href="#" class="btn btn-primary" role="button">About</a> 
-                        <a href="#" class="btn btn-default" role="button">View Project</a>
-                    </p>
+                    <a href="#" class="btn btn-primary info" role="button">About</a> 
+                    <a href="#" class="btn btn-default info" role="button">View Project</a>
                 </div>
-                <img src="img/test.png" alt="...">
             </div>
             <?php
         }
