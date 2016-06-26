@@ -25,8 +25,9 @@
             $class = $types[mt_rand(0, count($types) - 1)];
             ?>
             
-            <div class="hvr-bounce-to-top grid-item thumbnail <?php echo $class ?>">
-                <img src="img/test.png" alt="...">
+            <!-- <div class="pitem hvr-bounce-to-top grid-item thumbnail <?php echo $class ?>"> -->
+            <div class="pitem grid-item thumbnail <?php echo $class ?>">
+                
                 <div class="caption">
                     <h3>Thumbnail label</h3>
                     <p>Thumbnail caption</p>
@@ -35,21 +36,11 @@
                         <a href="#" class="btn btn-default" role="button">View Project</a>
                     </p>
                 </div>
+                <img src="img/test.png" alt="...">
             </div>
             <?php
         }
         ?>
-        <div class="grid-item thumbnail">
-            <img src="..." alt="...">
-            <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>Thumbnail caption</p>
-                <p>
-                    <a href="#" class="btn btn-primary" role="button">About</a> 
-                    <a href="#" class="btn btn-default" role="button">View Project</a>
-                </p>
-            </div>
-        </div>
     </div>
 </div>
 
